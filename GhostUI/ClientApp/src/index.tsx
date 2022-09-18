@@ -27,7 +27,7 @@ function AppRenderer() {
     <StrictMode>
       <BrowserRouter>
         <Provider store={store}>
-          <App />
+          // <App />
         </Provider>
       </BrowserRouter>
       <ToastContainer {...toastifyProps} />
